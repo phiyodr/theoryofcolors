@@ -1,0 +1,6 @@
+sentence-transformers
+scikit-learn
+pandas
+numpy
+string-color
+matplotlib
