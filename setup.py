@@ -1,4 +1,5 @@
 import setuptools
+from theoryofcolors import __version__
 
 print(setuptools.find_packages())
 
@@ -11,9 +12,9 @@ with open("requirements.txt") as file:
     
 setuptools.setup(
     name="theoryofcolors",
-    version="0.1.0",
+    version=__version__,
     author="Philipp J. Roesch",
-    author_email="philipp.roesch@unibw.de",
+    author_email="phiyodr@gmail.com",
     description="Theory Of Colors",
     long_description=long_description,
     long_description_content_type="text/markdown",

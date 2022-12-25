@@ -175,6 +175,8 @@ class ColorCast:
             elif to_ == "hex":
                 color_hsv = self.string2hsv(x)
                 return self.hsv2hex(color_hsv)
+            elif to_ == "hsv":
+                return self.string2hsv(x)
   
 if __name__ == '__main__':
     cc = ColorCast()
